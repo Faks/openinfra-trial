@@ -25,7 +25,7 @@ class HistoryCommand extends AbstractCommand
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Bank statement history';
 
     /**
      * Execute the console command.

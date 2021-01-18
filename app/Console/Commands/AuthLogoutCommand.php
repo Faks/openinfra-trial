@@ -20,7 +20,7 @@ class AuthLogoutCommand extends AbstractCommand
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Logout from my bank account';
 
     /**
      * Execute the console command.

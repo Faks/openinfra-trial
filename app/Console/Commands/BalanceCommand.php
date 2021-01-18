@@ -25,7 +25,7 @@ class BalanceCommand extends AbstractCommand
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Bank account balance';
 
     /**
      * @throws \Illuminate\Contracts\Filesystem\FileNotFoundException

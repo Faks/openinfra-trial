@@ -28,7 +28,7 @@ class WithdrawCommand extends AbstractCommand
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'withdraw money from my account';
 
 
     /**

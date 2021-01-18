@@ -23,7 +23,7 @@ class  AuthRegisterCommand extends AbstractCommand
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Register bank account';
 
     /**
      * @throws Throwable

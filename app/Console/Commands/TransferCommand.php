@@ -28,7 +28,7 @@ class TransferCommand extends AbstractCommand
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Transfer money to other user';
 
     /**
      * Execute the console command.

@@ -28,7 +28,7 @@ class DepositCommand extends AbstractCommand
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Deposit in bank account';
 
     /**
      * Execute the console command.

@@ -25,7 +25,7 @@ class AuthLoginCommand extends AbstractCommand
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Login in to bank account';
 
     /**
      * @throws \JsonException
