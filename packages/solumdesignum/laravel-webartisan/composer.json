@@ -1,0 +1,36 @@
+{
+    "name": "solumdesignum/laravel-webartisan",
+    "description": "Web artisan allows to run artisan console commands using a browser",
+    "keywords": ["webartisan", "artisan", "laravel", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oskars Germovs",
+            "email": "oskars_germvos@inbox.lv"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SolumDeSignum\\WebArtisan\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SolumDeSignum\\WebArtisan\\WebArtisanServiceProvider"
+            ],
+            "branch-alias": {
+                "dev-master": "1.x-master",
+                "dev-dev": "1.x-dev"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
